@@ -4,7 +4,8 @@ PyCUDA Examples
 A collection of PyCUDA examples, originally made for `PyCON DK <http://pycon.dk/>`_.
 Refer to the `PyCUDA wiki page <http://wiki.tiker.net/PyCuda/Examples>`_ for more examples.
 
-This repository contains the following examples:
+Examples with explanations:
+---------------------------
 
 ``numpy_simple.py``
     Double the values in a signed integer array (CPU performance reference)
