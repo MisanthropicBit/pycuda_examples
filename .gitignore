@@ -1,2 +1,6 @@
 .py[cod]
-cuda_simple.cu
+bin/
+*.cu
+*.cpp
+*.txt
+*.dat

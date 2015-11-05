@@ -31,7 +31,7 @@ if __name__ == '__main__':
     end.synchronize()
     print("Took {}ms".format(start.time_till(end)))
 
-    d_array.get(h_array)    
+    d_array.get(h_array)
 
     # Verify the result
     assert np.all(h_array_copy * 2 == h_array)

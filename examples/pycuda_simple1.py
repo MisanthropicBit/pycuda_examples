@@ -41,7 +41,6 @@ if __name__ == '__main__':
     # Retrieve the kernel from the source module
     double_kernel = double_kernel_source.get_function('double_kernel')
 
-
     start.record()
     # Launch the kernel
     double_kernel(d_array, np.uint32(array_size),

@@ -40,4 +40,3 @@ if __name__ == '__main__':
     print("True sum {}\nGPU sum: {}".format(true_sum[-1], h_array[-1]))
     assert true_sum[-1] == h_array[-1]
     assert np.all(true_sum == h_array)
-
