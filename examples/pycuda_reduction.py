@@ -12,7 +12,7 @@ import pycuda.reduction
 
 
 if __name__ == '__main__':
-    array_size = 1000000
+    array_size = 10e6
 
     start, end = driver.Event(), driver.Event()
 

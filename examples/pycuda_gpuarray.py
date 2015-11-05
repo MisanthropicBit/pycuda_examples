@@ -13,7 +13,7 @@ import pycuda.gpuarray as gpuarray
 
 
 if __name__ == '__main__':
-    array_size = 1000000
+    array_size = 10e5
 
     start, end = driver.Event(), driver.Event()
 

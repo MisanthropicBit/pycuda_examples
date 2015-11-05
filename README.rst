@@ -27,3 +27,6 @@ Examples with explanations:
 
 ``pycuda_exclusive_scan.py``
     Perform an exclusive scan on an array using ``pycuda.scan.ExclusiveScanKernel``.
+
+``pycuda_saxpy.py``
+    Perform a saxpy computation using the gpuarray object.
